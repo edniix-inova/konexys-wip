@@ -1,22 +1,41 @@
-# Ignore all contents of data/
+# ================================
+# Data folders (keep folder, ignore contents)
+# ================================
+
+# Ignore everything inside data/
 data/*
-scripts/playground_data/*
-
-# Keep the folder itself (so it's tracked)
+!data/
 !data/.gitkeep
-!scripts/playground_data/ .gitkeep
 
-# Ignore folder
+# Ignore everything inside scripts/playground_data/
+scripts/playground_data/*
+!scripts/playground_data/
+!scripts/playground_data/.gitkeep
+
+# ================================
+# Ignore full folders
+# ================================
+
+notebooks/
 konexys_test/
 __pycache__/
 
+# ================================
 # Ignore files
+# ================================
+
 genericize_konexys.sh
 *.pyc
 *.Zone.Identifier
 
+# ================================
 # Sphinx build
+# ================================
+
 docs/_build/
 
+# ================================
 # Virtual environment
+# ================================
+
 .venv/
