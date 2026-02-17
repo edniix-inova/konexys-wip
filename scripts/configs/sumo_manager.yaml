@@ -1,0 +1,9 @@
+net_file: map_network.net.xml
+pois_file: pois.xml
+random_trips_file: random_trips.xml
+random_routes_file: random_routes.sumout
+rerouting_threads: 2
+vtype_template_file: vtypes_template.add.xml
+time_prefix_format: '%Y%m%d%H%M%S'
+sumo_seed: 123
+fcd_output: fcd_output_random.sumout

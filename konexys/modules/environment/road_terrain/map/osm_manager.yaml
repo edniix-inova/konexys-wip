@@ -1,0 +1,35 @@
+header_tags:
+- note
+- meta
+- bounds
+data_tags:
+- node
+- way
+- relation
+delete_elem_attr:
+- version
+- timestamp
+- changeset
+- uid
+- user
+keep_road_types:
+- motorway
+- motorway_link
+- trunk
+- trunk_link
+- primary
+- primary_link
+- secondary
+- secondary_link
+- tertiary
+- tertiary_link
+- unclassified
+- residential
+- living_street
+- track
+- services
+- unsurfaced
+osm_file: osm_data_original.osm
+osm_hardfiltered_file: osm_data_hardfiltered.osm
+osm_softfiltered_file: osm_data_softfiltered.osm
+overpassapi_uri: https://lz4.overpass-api.de/api/interpreter
