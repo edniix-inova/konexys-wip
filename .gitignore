@@ -5,12 +5,12 @@
 # Ignore everything inside data/
 data/*
 !data/
-!data/.gitkeep
+!data/README.md
 
 # Ignore everything inside scripts/playground_data/
 scripts/playground_data/*
 !scripts/playground_data/
-!scripts/playground_data/.gitkeep
+!scripts/playground_data/README.md
 
 # ================================
 # Ignore full folders
